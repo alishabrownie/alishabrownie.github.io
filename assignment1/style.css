@@ -1,0 +1,21 @@
+h1 {
+    font-size: 3rem;
+    color: palevioletred;
+    font-weight: 900;
+    text-transform: uppercase;
+    text-align: center;
+    padding-bottom: 20px;
+  }
+
+  body { background-color:  #d9aff0
+  }
+
+  body {
+    margin: 30px;
+  }
+
+  h2 {
+    font-size: 2rem;
+    padding-bottom: 10px;
+  }
+ 
