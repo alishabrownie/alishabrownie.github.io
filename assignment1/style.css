@@ -1,21 +1,42 @@
 h1 {
     font-size: 3rem;
-    color: palevioletred;
+    color: rgb(244, 241, 255);
     font-weight: 900;
     text-transform: uppercase;
     text-align: center;
     padding-bottom: 20px;
+    
+      font-family: "Paytone One", sans-serif;
+      font-weight: 400;
+      font-style: normal;
+      /*I wanted to use a chunky font for the heading to tie in with the bold fonts that Luni uses on each app's section. */
   }
 
   body { background-color:  #d9aff0
   }
+  /* I used a light purple colour similar to the one used on the background of the Luniverse homepage. */
 
   body {
-    margin: 30px;
+    margin: 40px;
   }
 
   h2 {
     font-size: 2rem;
     padding-bottom: 10px;
+    font-family: "Mukta", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+
+  h3 {
+font-size: 1.3rem;
+font-family: "Mukta", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 23px
+  }
+
+  p {
+
   }
  
