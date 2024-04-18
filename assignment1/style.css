@@ -1,123 +1,137 @@
 h1 {
-    font-size: 4.5rem;
-    color: rgb(244, 241, 255);
-    font-weight: 900;
-    text-transform: uppercase;
-    text-align: center;
-    margin-bottom: 100px;
-    border: rgb(162, 140, 233) solid 10px;
-    /*I chose white for the text to constrast with the purple background and correlate with the colour of the "Luniverse" heading.*/
+  font-size: 4.5rem;
+  color: rgb(244, 241, 255);
+  font-weight: 900;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 100px;
+  border: rgb(162, 140, 233) solid 10px;
+  /*I chose white for the text to constrast with the purple background and correlate with the colour of the "Luniverse" heading.*/
 
-    
-      font-family: "Paytone One", sans-serif;
-      font-weight: 400;
-      font-style: normal;
-      /*I wanted to use a chunky font for the heading to tie in with the bold fonts that Luni uses on each app's section. */
-  }
+  font-family: "Paytone One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  /*I wanted to use a chunky font for the heading to tie in with the bold fonts that Luni uses on each app's section. */
+}
 
-  body { background-color:  #d9aff0
-  }
-  /* I used a light purple colour similar to the one used on the background of the Luniverse homepage. */
+body {
+  background-color: #d9aff0;
+}
+/* I used a light purple colour similar to the one used on the background of the Luniverse homepage. */
 
-  body {
-    margin: 60px;
-    margin-left: 150px;
+body {
+  margin: 60px;
+  margin-left: 150px;
+}
 
-  }
+h2 {
+  font-size: 2rem;
+  padding-bottom: 10px;
+  font-family: "Mukta", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+/*I also tried to find a similar font to the one that Luniverse uses in its body paragraphs. */
 
-  h2 {
-    font-size: 2rem;
-    padding-bottom: 10px;
-    font-family: "Mukta", sans-serif;
-    font-weight: 600;
-    font-style: normal;
-  }
-  /*I also tried to find a similar font to the one that Luniverse uses in its body paragraphs. */
-
-  h3 {
-font-size: 1.35rem;
-font-family: "Mukta", sans-serif;
+h3 {
+  font-size: 1.35rem;
+  font-family: "Mukta", sans-serif;
   font-weight: 500;
   font-style: normal;
   width: 50%;
   line-height: 23px;
   padding-bottom: 5px;
-  }
+}
 
-  p {
-    font-size: 1.25rem;
-padding-bottom: 60px;
-font-family: "Mukta", sans-serif;
-font-weight: 300;
-font-style: normal;
-width: 50%;
-  }
+p {
+  font-size: 1.25rem;
+  padding-bottom: 60px;
+  font-family: "Mukta", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  width: 50%;
+}
 
-  .luni1 {
-    float: right;
-    position: relative; bottom: 375px; 
-    margin-right: 100px; 
-    
-  }
-  /* I inserted screenshots of the relevant parts of the website to depict what I am analysing*/
- 
-  .luni2 {
-    float: right; 
-    position: relative; bottom: 825px; 
-    margin-right: 75px;
+.luni1 {
+  float: right;
+  position: relative;
+  bottom: 375px;
+  margin-right: 100px;
+}
+/* I inserted screenshots of the relevant parts of the website to depict what I am analysing*/
 
-  }
+.luni2 {
+  float: right;
+  position: relative;
+  bottom: 825px;
+  margin-right: 75px;
+}
 
-  .luni3 {
-    position: absolute; left: 700px;
-    position: absolute; top: 1400px;
-  }
+.luni3 {
+  position: absolute;
+  left: 700px;
+  position: absolute;
+  top: 1400px;
+}
 
-  .luni4 {
-    position: absolute; left: 875px;
-  }
+.luni4 {
+  position: absolute;
+  left: 875px;
+}
 
-  .luni5 {
-    float: right;
-    position: absolute; right: 300px;
-    position: absolute; top: 2150px
-  }
+.luni5 {
+  float: right;
+  position: absolute;
+  right: 300px;
+  position: absolute;
+  top: 2150px;
+}
 
-  .luni6 {
-    position: absolute; right: 150px;
-  }
+.luni6 {
+  position: absolute;
+  right: 150px;
+}
 
-  .luni7 {
-    position: absolute; right: 100px;
-  }
+.luni7 {
+  position: absolute;
+  right: 100px;
+}
 
-  .luni8 {
-    position: absolute; right: 75px;
-    position: absolute; bottom: -2650px;
-  }
+.luni8 {
+  position: absolute;
+  right: 75px;
+  position: absolute;
+  bottom: -2650px;
+}
 
-  .luni9 {
-    position: absolute; right: 100px;
-  }
+.luni9 {
+  position: absolute;
+  right: 100px;
+}
 
 .luni10 {
-  position: absolute; right: 70px;
+  position: absolute;
+  right: 70px;
 }
 
 .luni11 {
-  position: absolute; right: 125px;
+  position: absolute;
+  right: 125px;
 }
 
 .luni12 {
-  position: absolute; right: 225px;
+  position: absolute;
+  right: 225px;
   margin-top: 50px;
 }
 
 .luni13 {
-  position: absolute; right: 240px;
+  position: absolute;
+  right: 240px;
 }
 
 .luni14 {
-  position: absolute; right: 60px;
+  position: absolute;
+  right: 60px;
   margin-top: 200px;
 }
