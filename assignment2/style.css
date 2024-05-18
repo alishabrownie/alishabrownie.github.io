@@ -1,10 +1,12 @@
 :root {
   --primary-bg-color: #dcfbff;
   --text-color: #333;
-  --main-bg-color: #c176bc;
+  --main-bg-color: #c36bbd;
   --main-text-color: #fff;
   --main-btn-bg-color: #77baa5;
 }
+/* I changed the colours of the website to match the colour scheme of the video */
+/* I used cyan to contrast and compliment the magenta colour */
 
 body,
 h1,
@@ -14,8 +16,28 @@ ul {
   padding: 0;
 }
 
+h1 {
+  font-size: 3rem;
+  font-family: "Bungee", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h2 {
+  font-size: 2rem;
+  font-family: "Jersey 10", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+p {
+  font-family: "Jersey 10", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
 body {
-  font-family: "Arial", sans-serif;
+  /* font-family: "Arial", sans-serif; */
   background-color: var(--primary-bg-color);
   color: var(--text-color);
   line-height: 1.6;
@@ -47,6 +69,11 @@ header {
 nav {
   margin-top: 20px;
   text-align: center;
+
+  font-size: 1.5rem;
+  font-family: "Jersey 10", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 nav ul {
@@ -56,7 +83,7 @@ nav ul {
 }
 
 nav ul li {
-  margin-right: 20px;
+  margin-right: 40px;
 }
 
 nav a {
@@ -112,9 +139,15 @@ nav a {
 
 /* Footer styling */
 footer {
+  font-family: "Albert Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-size: 0.7rem;
+
   background-color: var(--main-bg-color);
   color: var(--main-text-color);
   text-align: center;
-  padding: 10px 0;
+  padding: 30px 0;
   width: 100%;
 }
