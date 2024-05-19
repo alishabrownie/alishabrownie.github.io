@@ -65,7 +65,7 @@ function goFullscreen() {
   }
 }
 
-// Fast Forward
+// Fast Forward - Additional interactive feature
 // I added both a forward and rewind button so that the user could easily navigate to different areas of the video.
 // This means if they really like a certain part or miss something and want to rewatch it they easily forward or rewind to that section.
 // At first I used this tutorial for the forward button: https://www.youtube.com/watch?v=gyUx8d49fJQ
