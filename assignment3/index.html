@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Drag and Drop example</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="text">
+      <h1>Kennedy's Kitchen</h1>
+      <h2>Sweet treats for the family</h2>
+      <!-- I named the site Kennedy's Kitchen because people are more likely to trust someone with a name and a face rather than a random site-->
+      <!-- The website would have a biography and each recipe would have a blog to describe her baking process to make it seem like the user is getting a recipe from a friend rather than a stranger-->
+    </div>
+
+    <!-- I ended up changing to a recipe website idea which uses the hover action as the main interaction of the website. -->
+    <!-- I liked the idea of being able to see a moving video of the food when the user is searching for a good recipe because it gives them a better idea of whether they want to use it or not. -->
+
+    <div class="recipes">
+      <button id="donut-button">
+        <!-- <img src="images/donut.png" alt="donut" id="donut" width="300" /> -->
+        <video id="donut-video" src="images/donutvid.mp4" width="700"></video>
+        <h3>The Best Fluffy Glazed Donuts</h3>
+      </button>
+
+      <button id="banana-button">
+        <video id="banana-video" src="images/bananavid.mp4" width="700"></video>
+        <h3>Best Banana Bread Recipe</h3>
+      </button>
+
+      <button id="apple-button">
+        <video id="apple-video" src="images/applevid.mp4" width="700"></video>
+        <h3>Delicious Apple Strudel (Crispy Crust!)</h3>
+      </button>
+    </div>
+  </body>
+</html>

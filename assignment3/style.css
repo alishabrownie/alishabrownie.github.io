@@ -1,0 +1,81 @@
+/* https://colorhunt.co/palette/1a120b3c2a21d5cea3e5e5cb */
+
+body {
+  background-color: #f895cb;
+  margin: 50px;
+  max-width: 1000px;
+}
+
+h1 {
+  font-size: 3rem;
+  font-family: "Indie Flower", cursive;
+  font-weight: 400;
+  font-style: normal;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+/* I used a hand written look font to give the title a more homey vibe because the target audience is families cooking at home for their loved ones.  */
+/* The white text contrasts with the pink background to make it easy to read but is less harsh then a black colour so it conveys a more calm aesthetic. */
+/* The colour scheme is pinks and purples to express a friendly, fun experience while baking. */
+
+h2 {
+  font-family: "Kalam", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.5rem;
+  margin-bottom: 35px;
+  text-align: center;
+}
+
+h3 {
+  font-family: "Poetsen One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #4a2a2a;
+  text-align: center;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #e5e5cb;
+}
+
+.recipes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#donut-button {
+  cursor: pointer;
+  border: rgb(185, 67, 140) solid 10px;
+  border-radius: 10px;
+  background-color: rgb(225, 188, 255);
+}
+
+/* I made it so when you hover over the different recipes the cursor changes to the pointer icon so that the user understands that they are able to interact with it.  */
+/* I put a border around all the buttons to help to emphasise them and contrast with the lighter pink background. */
+
+#donut-button {
+  margin-bottom: 50px;
+}
+/* Margins are used between each recipe to make sure that they are easy to differientiate and that users don't accidentally click on the wrong one. */
+
+#banana-button {
+  margin-bottom: 50px;
+  cursor: pointer;
+  border: rgb(185, 67, 140) solid 10px;
+  border-radius: 10px;
+  background-color: rgb(225, 188, 255);
+}
+
+#apple-button {
+  cursor: pointer;
+  border: rgb(185, 67, 140) solid 10px;
+  border-radius: 10px;
+  background-color: rgb(225, 188, 255);
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Drag and Drop example</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <!-- <div class="outer colorbox" draggable="true">Drag me</div>
+    <div class="outer dropbox">Drop me here</div> -->
+
+    <div class="text">
+      <h1>MIXING COLOURS</h1>
+      <h2>What two colours can you mix to make purple?</h2>
+    </div>
+
+    <div class="stuff">
+      <div class="palette1">
+        <img id="palette" src="images/palette.png" alt="palette" width="500" />
+      </div>
+
+      <div class="paint">
+        <img
+          src="images/red splodg.png"
+          alt="red"
+          id="red"
+          width="100"
+          draggable="true"
+        />
+        <img
+          src="images/yellow splodg.png"
+          alt="yellow"
+          id="yellow"
+          width="100"
+          draggable="true"
+        />
+        <img
+          src="images/blue splodg.png"
+          alt="blue"
+          id="blue"
+          width="100"
+          draggable="true"
+        />
+      </div>
+    </div>
+  </body>
+</html>
