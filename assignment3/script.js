@@ -38,11 +38,11 @@ function stopVideo(event) {
   event.target.pause();
 }
 
-const bananaVideo = document.querySelector("#banana-video");
-console.log(bananaVideo);
+const cookieVideo = document.querySelector("#cookie-video");
+console.log(cookieVideo);
 
-bananaVideo.addEventListener("mouseover", playVideo);
-bananaVideo.addEventListener("mouseout", stopVideo);
+cookieVideo.addEventListener("mouseover", playVideo);
+cookieVideo.addEventListener("mouseout", stopVideo);
 
 function playVideo(event) {
   event.target.play();

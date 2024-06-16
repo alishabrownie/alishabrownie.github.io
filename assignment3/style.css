@@ -65,7 +65,7 @@ h3 {
 }
 /* Margins are used between each recipe to make sure that they are easy to differientiate and that users don't accidentally click on the wrong one. */
 
-#banana-button {
+#cookie-button {
   margin-bottom: 50px;
   cursor: pointer;
   border: rgb(185, 67, 140) solid 10px;
@@ -78,4 +78,16 @@ h3 {
   border: rgb(185, 67, 140) solid 10px;
   border-radius: 10px;
   background-color: rgb(225, 188, 255);
+}
+
+footer {
+  padding: 30px;
+}
+
+footer {
+  font-family: "Kalam", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 0.6rem;
+  color: #4a2a2a;
 }
